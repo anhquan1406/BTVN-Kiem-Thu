@@ -1,0 +1,78 @@
+ BÀI 1: CHU VI HÌNH CHỮ NHẬT
+
+Input: a, b
+Output: 2*(a+b)
+
+TC	a	b	Expected
+TC1	5	3	16
+TC2	1	1	4
+TC3	0	3	Invalid input
+TC4	-1	2	Invalid input
+TC5	2.5	4	13
+ BÀI 2: DIỆN TÍCH HÌNH CHỮ NHẬT
+
+Output: a*b
+
+TC	a	b	Expected
+TC1	5	3	15
+TC2	1	1	1
+TC3	0	3	Invalid input
+TC4	-1	2	Invalid input
+TC5	2.5	4	10
+ BÀI 3: PHƯƠNG TRÌNH BẬC 2
+
+Input: a, b, c
+
+TC	a	b	c	Expected
+TC1	1	2	1	Nghiệm kép
+TC2	1	0	1	Vô nghiệm
+TC3	1	-3	2	2 nghiệm
+TC4	0	2	1	PT bậc 1
+TC5	0	0	1	Vô nghiệm
+TC6	0	0	0	Vô số nghiệm
+ BÀI 4: SỐ NGÀY TRONG THÁNG
+
+Input: tháng, năm
+
+TC	Tháng	Năm	Expected
+TC1	1	2024	31
+TC2	2	2024	29
+TC3	2	2023	28
+TC4	4	2024	30
+TC5	13	2024	Invalid input
+TC6	0	2024	Invalid input
+ BÀI 5: SỐ NGUYÊN TỐ
+TC	n	Expected
+TC1	7	True
+TC2	2	True
+TC3	1	False
+TC4	0	False
+TC5	-5	False
+ BÀI 6: TỔNG XEN KẼ
+
+S = 1 - 2 + 3 - 4 + ... + n
+
+TC	n	Expected
+TC1	5	3
+TC2	1	1
+TC3	2	-1
+TC4	0	Invalid input
+TC5	-3	Invalid input
+ BÀI 7: UCLN(a, b)
+TC	a	b	Expected
+TC1	6	9	3
+TC2	5	5	5
+TC3	0	5	5
+TC4	5	0	5
+TC5	0	0	Invalid input
+TC6	-6	9	3
+ BÀI 8: TỔNG GIAI THỪA
+
+S = 1! + 2! + ... + n!
+
+TC	n	Expected
+TC1	3	9
+TC2	5	153
+TC3	1	1
+TC4	0	0
+TC5	-2	Invalid input
